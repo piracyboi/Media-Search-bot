@@ -30,9 +30,13 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
 default_start_msg = """
-**Hi, I'm Media Search bot**
+**Hey, I'm Uploader4Films Bot**
+Search any film here.
+If not found, go to @filmsbotreq
+For shows - @tvseriescobot
+For anime - @animehqbot
 
-Here you can search files in inline mode. Just press following buttons and start searching.
+Search Here. Contact @Uploader4
 """
 
 START_MSG = environ.get('START_MSG', default_start_msg)
