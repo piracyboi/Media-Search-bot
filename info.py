@@ -33,8 +33,9 @@ default_start_msg = """
 **Hey, I'm Uploader4Films Bot**
 Search any film here.
 If not found, go to @filmsbotreq
-For shows - @tvseriescobot
-For anime - @animehqbot
+For Shows - @tvseriescobot
+For Anime - @animehqbot
+For Indian content - @regionalrequests
 
 Search Here. Contact @Uploader4
 """
