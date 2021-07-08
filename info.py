@@ -13,7 +13,7 @@ USE_CAPTION_FILTER = False
 ADMINS = ['950362602']
 CHANNELS = [-1001322302012, 950362602]
 AUTH_USERS = []
-AUTH_CHANNEL = none
+AUTH_CHANNEL = None
 
 # MongoDB information
 DATABASE_URI = "mongodb+srv://Uploader4:23132312Piracyftw@cluster0.krshf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
