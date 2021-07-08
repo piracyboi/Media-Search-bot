@@ -21,7 +21,7 @@ DATABASE_NAME = 'filmreqbot'
 COLLECTION_NAME = 'Telegram_files'
 
 # Messages
-default_start_msg = """
+START_MSG = """
 **Hey, I'm Uploader4Films Bot**
 Search any film here.
 If not found, go to @filmsbotreq
@@ -31,7 +31,5 @@ For Indian content - @regionalrequests
 
 Search Here. Contact @Uploader4
 """
-
-START_MSG = environ.get('START_MSG', default_start_msg)
 SHARE_BUTTON_TEXT = 'Checkout {filmsreqbot} for searching files'
-INVITE_MSG = environ.get('INVITE_MSG', 'Please go to @filmsbotreq to use this bot. Exclusive for group members.')
+INVITE_MSG = 'Please go to @filmsbotreq to use this bot. Exclusive for group members.'
